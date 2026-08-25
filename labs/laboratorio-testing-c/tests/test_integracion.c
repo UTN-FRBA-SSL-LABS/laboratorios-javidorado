@@ -22,8 +22,8 @@
 int main(void) {
     printf("=== Tests de integracion ===");
     /* Descomentar a medida que agregues las funciones: */
-    /* test_compra_con_descuento();  */
-    /* test_agregar_hasta_llenar();  */
+    test_compra_con_descuento();
+    test_agregar_hasta_llenar();
     RESUMEN();
     return EXIT_CODE();
 }

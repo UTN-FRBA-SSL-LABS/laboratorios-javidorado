@@ -1,5 +1,8 @@
+export TMP := C:/Temp
+export TEMP := C:/Temp
+
 CC     = gcc
-CFLAGS = -Wall -Wextra -std=c99
+CFLAGS = -Wall -Wextra -std=c99 -pipe
 
 SRC = src/carrito.c
 
